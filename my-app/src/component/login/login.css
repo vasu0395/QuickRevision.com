@@ -1,0 +1,23 @@
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 15px #e60073,
+      0 0 15px #e60073, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 20px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 20px #ff4da6, 0 0 30px #ff4da6,
+      0 0 25px #ff4da6, 0 0 25px #ff4da6, 0 0 25px #ff4da6, 0 0 35px #ff4da6;
+  }
+}
+.text-responsive {
+  font-size: calc(100% + 1vh);
+  font-style: italic;
+}
+
+.text-body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.096), rgba(0, 0, 0, 0.815)),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1NkzdC5iYIZ9-g36s8B35Q4mzw5NE8qNsRKJB-HZLzOEM_Hyz8WxPe-zM8BJyTmW9sw&usqp=CAU");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
